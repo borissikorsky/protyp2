@@ -1,3 +1,22 @@
 .top-appbar {
   margin-top: -10px;
 }
+.header-inputbox {
+  width: 300px;
+  padding-top: 25px;
+}
+.header-inputbox input {
+  margin-top:-8px !important;
+  height: 50px;
+}
+.header-inputbox hr {
+  bottom: 20px !important;
+  border-color:#0094A7!important;
+}
+
+.header-inputbox div {
+  bottom: 20px !important;
+}
+.header-inputbox label {
+  margin-top: -10px !important;
+}

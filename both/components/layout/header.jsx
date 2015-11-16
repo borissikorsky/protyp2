@@ -98,7 +98,7 @@ Header = React.createClass({
                 <FormsyText
                   name='email'
                   required
-                  style={{width:"200px"}}
+                  className="header-inputbox"
                   hintText="What is your email?"
                   floatingLabelText="Email Address" />&nbsp;
 
@@ -106,7 +106,7 @@ Header = React.createClass({
                   name='password'
                   type='password'
                   required
-                  style={{width:"200px"}}
+                  className="header-inputbox"
                   primary={true}
                   hintText="What is your password?"
                   floatingLabelText="Password" />

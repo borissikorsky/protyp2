@@ -1,8 +1,9 @@
 .top-appbar {
   margin-top: -10px;
 }
+
 .header-inputbox {
-  width: 300px;
+  width: 150px !important;
   padding-top: 25px;
 }
 .header-inputbox input {
@@ -19,4 +20,21 @@
 }
 .header-inputbox label {
   margin-top: -10px !important;
+}
+
+.home-page {
+  float: left;
+}
+
+.side-nav>div{
+  margin-top: 70px;
+}
+.header-left-area h3 {
+  margin: 10px 0 0 20px;
+}
+.header-left-area {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 200px;
+  display: -webkit-box;
 }

@@ -12,7 +12,7 @@ let {
 } = FMUI;
 
 var {
-  LeftNav, MenuItem
+  Avatar
 } = MUI;
 
 Home = React.createClass({
@@ -84,16 +84,11 @@ Home = React.createClass({
     let {paperStyle, switchStyle, submitStyle } = this.styles;
     let { wordsError, numericError, urlError } = this.errorMessages;
 
+
     return (
       <div>
-        <LeftNav ref="leftNav" docked={false} >
-          <MenuItem index={0}>Menu Item 1</MenuItem>
-          <MenuItem index={1}>Menu Item 2</MenuItem>
-          <MenuItem index={2}>Menu Item 3</MenuItem>
-          <MenuItem index={3}>Menu Item 4</MenuItem>
-          <MenuItem index={4}>Menu Item 5</MenuItem>
-        </LeftNav>
-        here is grid 
+        This is react-grid form.
+
       </div>
     );
   }

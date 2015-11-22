@@ -1,25 +1,31 @@
+body {
+  margin: 8px 0 0 0;
+}
+.header-inputbox input {
+  margin-top:1px !important;
+  height: 20px;
+  width: 180px !important;
+}
+.header-inputbox hr {
+  bottom: 22px !important;
+  border-color:#0094A7!important;
+  width: 180px !important;
+}
+.header-inputbox div {
+  bottom: 24px !important;
+  width: 180px !important;
+}
+.header-inputbox label {
+  margin-top: -12px !important;
+  width: 180px !important;
+}
+
 .top-appbar {
-  margin-top: -10px;
+  margin-top: -18px;
 }
 
 .header-inputbox {
-  width: 150px !important;
-  padding-top: 25px;
-}
-.header-inputbox input {
-  margin-top:-8px !important;
-  height: 50px;
-}
-.header-inputbox hr {
-  bottom: 20px !important;
-  border-color:#0094A7!important;
-}
-
-.header-inputbox div {
-  bottom: 20px !important;
-}
-.header-inputbox label {
-  margin-top: -10px !important;
+  width: 180px !important;
 }
 
 .home-page {
@@ -29,12 +35,18 @@
 .side-nav>div{
   margin-top: 70px;
 }
+
 .header-left-area h3 {
   margin: 10px 0 0 20px;
 }
 .header-left-area {
   margin-top: 10px;
   margin-left: 5px;
-  width: 200px;
+  width: 150px;
   display: -webkit-box;
+}
+.rgl-wrapper {
+  width: 800px;
+  height: 300px;
+  border: 1px solid red;
 }

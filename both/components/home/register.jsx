@@ -111,6 +111,7 @@ Register = React.createClass({
             validations='isWords'
             validationError={wordsError}
             required
+            className="formsy-email"
             hintText="What is your email?"
             floatingLabelText="User Email" />
 

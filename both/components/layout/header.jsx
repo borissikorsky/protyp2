@@ -164,13 +164,13 @@ Header = React.createClass({
         <LeftNav
           className="side-nav"
           ref="leftNav"
-          docked={true}
+          docked={false}
           menuItems={leftMenuItems} />
 
         <LeftNav
           className="side-nav"
           ref="rightNav"
-          docked={true}
+          docked={false}
           openRight={true}
           menuItems={rightMenuItems} />
       </div>
